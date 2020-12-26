@@ -24,7 +24,7 @@ def main(cascaded, block_orientation, rotate):
     print("[-] Matrix initialized")
 
     # print hello world on the matrix display
-    msg = "Hello World"
+    msg = "Hi Neel P@ul!!"
     # debugging purpose
     print("[-] Printing: %s" % msg)
     show_message(device, msg, fill="white", font=proportional(CP437_FONT), scroll_delay=0.1)
