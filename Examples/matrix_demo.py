@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright (c) 2017-18 Richard Hull and contributors
 # License: https://github.com/rm-hull/luma.led_matrix/blob/master/LICENSE.rst
@@ -24,7 +24,7 @@ def main(cascaded, block_orientation, rotate):
     print("[-] Matrix initialized")
 
     # print hello world on the matrix display
-    msg = "Hi Neel P@ul!!"
+    msg = "I like Minecraft!!!"
     # debugging purpose
     print("[-] Printing: %s" % msg)
     show_message(device, msg, fill="white", font=proportional(CP437_FONT), scroll_delay=0.1)
