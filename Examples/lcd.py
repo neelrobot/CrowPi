@@ -17,10 +17,10 @@ try:
     lcd.set_backlight(0)
 
     # Print a two line message
-    lcd.message('Hello\nworld!')
+    lcd.message('Hi Mr. Neel!')
 
     # Wait 5 seconds
-    time.sleep(5.0)
+    time.sleep(10.0)
 
     # Demo showing the cursor.
     lcd.clear()
