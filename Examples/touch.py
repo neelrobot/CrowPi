@@ -18,7 +18,7 @@ try:
     while True:
         # check if touch detected
         if(GPIO.input(touch_pin)):
-            print('Touch Detected')
+            print('Touch of human creature Detected!!')
         time.sleep(0.1)
 except KeyboardInterrupt:
     # CTRL+C detected, cleaning and quitting the script
